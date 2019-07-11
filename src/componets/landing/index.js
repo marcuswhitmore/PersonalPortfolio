@@ -6,7 +6,8 @@ class SVG extends Component {render() {
   return (
     <div className="SVG">
       <header className="SVG-header">
-        <img src={logo} className="SVG-logo" alt="logo" />
+        <a href="https://github.com/marcuswhitmore"><img src={logo} className="SVG-logo" alt="logo" /></a>
+        <span> Marcus Whitmore</span>
         
       </header>
     </div>
