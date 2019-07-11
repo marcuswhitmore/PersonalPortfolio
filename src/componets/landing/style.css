@@ -1,9 +1,13 @@
+span {
+  padding: 2rem;
+}
+
 .SVG {
   text-align: center;
 }
 
 .SVG-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -23,8 +27,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: white;
+  font-family: 'Lobster', cursive;
 }
 
 .SVG-link {
