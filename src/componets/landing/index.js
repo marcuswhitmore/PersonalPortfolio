@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import logo from "./logo.svg";
-import Navbar from "./navbar";
+import Navbar from "../NavBar/navbar";
 
 class SVG extends Component {render() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 import landing from './componets/landing/';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import projects from './componets/projects'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div>
        
         <Route path="/" component={landing} />
-     
+        <Route path="/projects" component={projects} />
 
       </div>
     </Router>
